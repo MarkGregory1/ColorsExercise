@@ -1,27 +1,60 @@
 h1 {
-    color: blue; 
+    color: blue;
+    background-color: red; 
 }
 
 h2 {
     color: #00ff00;
+    background-color: orange;
 }
 
 h3 {
     color: #000;
+    background-color: yellow;
 }
 
 h4 {
     color: #ff00ff33;
+    background-color: green;
 }
 
 h5 {
     color: #0009;
+    background-color: blue;
 }
 
 h6 {
     color: rgb(0, 0, 255);
+    background-color: indigo;
 }
 
 p {
     color: rgba(128, 0, 0, 0.2);
+    background-color: violet;
+}
+
+span {
+    color: hotpink;
+}
+
+/* #first{ 
+        color: hotpink;
+} */
+
+/* li:first-child {
+    color: hot pink;
+} */
+
+li:last-child {
+    background-color: peachpuff;
+}
+
+/* .bird {
+    border: green;
+    border-style: solid;
+    border-width: 5px;
+} */
+
+.bird {
+    border: solid 5px green;
 }
